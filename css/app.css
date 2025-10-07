@@ -1,4 +1,3 @@
-
 .resume-intro {
   font-style: italic;
   color: #666;
@@ -6,6 +5,7 @@
 
 .resumelist {
   list-style-type: square;
+  padding-left: 20px;
 }
 
 .logo_2 {
@@ -22,4 +22,17 @@
   text-align: center;
   font-size: 0.9em;
   color: #888;
+}
+
+.project, .job {
+  margin-bottom: 20px; 
+}
+
+.project h3, .job h3 {
+  margin-bottom: 5px; 
+  font-size: 1.1em;
+}
+
+.project p, .job p {
+  margin-bottom: 10px;
 }
